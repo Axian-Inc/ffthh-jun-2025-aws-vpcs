@@ -1,0 +1,14 @@
+# Local .terraform directories
+**/.terraform/*
+
+# Ignore .tfstate files (should be on S3 anyway)
+*.tfstate
+*.tfstate.*
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+**/tfplan
+
+*.png
