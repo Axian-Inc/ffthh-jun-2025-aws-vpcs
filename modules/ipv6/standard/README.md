@@ -1,6 +1,6 @@
 # Standard IPv6 VPC
 
-This creates an IPv6 VPC has both Public and Private Subnets. Resources in this VPC do not have access to IPv4-only destinations.
+This creates an IPv6-only VPC has both Public and Private Subnets. Resources in this VPC do not have access to IPv4-only destinations.
 
 <!-- BEGIN_TF_DOCS -->
 ## Requirements

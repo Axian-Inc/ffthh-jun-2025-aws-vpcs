@@ -1,8 +1,6 @@
 # Standard IPv4 VPC
 
-This creates an IPv4 VPC has both Public and Private Subnets with a dedicate NAT Gateway for each Private Subnet.
-
-There is a cost associated with the NAT Gateways.
+This creates an IPv4 VPC has both Public and Private Subnets with a NAT Gateway in each AZ for the respective Private Subnets.
 
 <!-- BEGIN_TF_DOCS -->
 ## Requirements

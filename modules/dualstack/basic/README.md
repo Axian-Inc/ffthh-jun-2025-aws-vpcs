@@ -1,6 +1,6 @@
 # Basic Dual-Stack VPC
 
-This creates a VPC that is very similar to the default VPC provided by AWS but is for both IPv4 and IPv6.
+This creates a VPC that is similar to the default IPv4 VPCs provided by AWS but is for both IPv4 and IPv6.
 
 <!-- BEGIN_TF_DOCS -->
 ## Requirements

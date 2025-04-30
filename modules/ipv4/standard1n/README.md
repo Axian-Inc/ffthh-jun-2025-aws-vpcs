@@ -2,8 +2,6 @@
 
 This creates a VPC has both Public and Private Subnets, with a single NAT Gateway serving all of the Private Subnets.
 
-This is similar to a standard VPC configuration except for the shared NAT Gateway. The down side is that if there is an outage in the AZ that is hosting the NAT gateway then *all* of the Private Subnets will lose Internet connectivity regardless of the subnet's AZ. The up side is there is a cost savings by having just a single NAT gateway instead of one per AZ.
-
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 

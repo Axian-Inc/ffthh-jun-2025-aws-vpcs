@@ -1,8 +1,6 @@
 # Standard IPv6 VPC with IPv4 Connectivity
 
-This creates an IPv6 VPC with both Public and Private Subnets, and a NAT Gateway in each Availability Zone (AZ) to provide NAT64 service to both the Public and Private Subnets in the respective AZs.
-
-This utilizes an Egress-Only Internet Gateway. Originally NAT was invented to solve the problem of IPv4 address exhaustion, but it had the side benefit of isolating the networks behind NAT gateways from the Internet. With IPv6 there is no NAT and there are no IP address ranges reserved for non-routable networks. Everything is routable. The Egress-Only Internet Gateway brings back the network-isolation benefits of IPv4's NAT to IPv6 by creating a one-way door for Internet connections. Outbound connections are allowed while inbound connections are blocked.
+This creates an IPv6 VPC with both Public and Private Subnets, with a NAT Gateway in each AZ to provide NAT64 service to both the Public and Private Subnets in the respective AZs, and an Egress-Only Internet Gateway for IPv6 in Private Subnets.
 
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
