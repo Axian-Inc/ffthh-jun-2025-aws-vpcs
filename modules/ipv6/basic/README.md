@@ -1,7 +1,6 @@
 # Basic IPv6 VPC
 
-This creates an IPv6-only VPC that is very similar to the default IPv4 VPC provided by AWS, with just Public Subnets. Resources in this VPC do not have access to IPv4-only destinations.
-
+This creates an IPv6-only VPC that is similar to the default IPv4 VPCs provided by AWS, with just Public Subnets. Resources in this VPC do not have access to IPv4-only destinations.
 
 <!-- BEGIN_TF_DOCS -->
 ## Requirements

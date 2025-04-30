@@ -1,6 +1,6 @@
 # Single-NAT Standard Dual-Stack VPC
 
-This creates a VPC has both Public and Private Subnets, with a single NAT gateway serving all the Private Subnets for IPv4, and an Egress-Only Internet Gateway for IPv6.
+This creates a VPC has both Public and Private Subnets, with a single NAT gateway serving all the Private Subnets for IPv4, and an Egress-Only Internet Gateway for IPv6 in the Private Subnets.
 
 <!-- BEGIN_TF_DOCS -->
 ## Requirements

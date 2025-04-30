@@ -1,11 +1,6 @@
 # Basic IPv4 VPC
 
-This creates basic IPv4 VPC that is similar to the default VPC provided by AWS. It has only Public Subnets and no Private Subnets.
-
-The only reason you would use this instead of the AWS-provided VPC is if you wanted to use a different CIDR block or have a different number of subnets.
-
-There is no infrastructure cost associated with this VPC.
-
+This creates basic IPv4 VPC that is similar to the default IPv4 VPCs provided by AWS. It has only Public Subnets and no Private Subnets.
 
 <!-- BEGIN_TF_DOCS -->
 ## Requirements

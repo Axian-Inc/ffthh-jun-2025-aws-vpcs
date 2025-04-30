@@ -1,8 +1,6 @@
 # Single-NAT Basic IPv6 VPC with IPv4 Connectivity
 
-This creates an IPv6 VPC that is similar to the default IPv4 VPC provided by AWS, but adds DNS64/NAT64 so that resources within the VPC's subnets may connect to IPv4 destinations (including the AWS API endpoints). This uses a single NAT Gateway for all subnets.
-
-This architecture is vulnerable to an outage in the Availability Zone (AZ) that hosts the NAT gateway. In this case the impact of the outage would be that the resources the subnets for *all* AZs would be unable to connect to IPv4-only destinations. Access to IPv6 destinations would not be interrupted.
+This creates an IPv6 VPC that is similar to the default IPv4 VPCs provided by AWS. This uses a single NAT Gateway for doing NAT64 in all subnets.
 
 <!-- BEGIN_TF_DOCS -->
 ## Requirements

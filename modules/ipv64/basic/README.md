@@ -1,6 +1,6 @@
 # Basic IPv6 VPC with IPv4 Connectivity
 
-This creates an IPv6 VPC with just Public Subnets, similar to an AWS default VPC, but with IPv6 and DNS64/NAT64 for IPv4 connectivity.
+This creates an IPv6 VPC with just Public Subnets, similar to the default IPv4 VPCs provided by AWS, but with DNS64/NAT64 for IPv4 connectivity. This uses a NAT Gateway in each AZ for doing NAT64 for the respective Subnets.
 
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
