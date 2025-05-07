@@ -1,3 +1,13 @@
+output "vpc_id" {
+  description = "VPC ID"
+  value       = module.vpc.vpc_id
+}
+
+output "vpc_name" {
+  description = "VPC Name"
+  value       = module.vpc.vpc_name
+}
+
 # IPv4
 
 output "vpc_ipv4_cidr_block" {
