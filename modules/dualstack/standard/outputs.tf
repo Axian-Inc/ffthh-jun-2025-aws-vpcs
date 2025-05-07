@@ -1,3 +1,15 @@
+# VPC
+
+output "vpc_id" {
+  description = "VPC ID"
+  value       = aws_vpc.this.id
+}
+
+output "vpc_name" {
+  description = "VPC Name"
+  value       = local.vpc_name
+}
+
 # IPv4
 
 output "vpc_ipv4_cidr_block" {
