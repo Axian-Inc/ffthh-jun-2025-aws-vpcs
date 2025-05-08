@@ -57,4 +57,6 @@ No requirements.
 | <a name="output_public_subnet_cidr_blocks"></a> [public\_subnet\_cidr\_blocks](#output\_public\_subnet\_cidr\_blocks) | Public Subnet IPv4 CIDR Blocks |
 | <a name="output_top_level_vpc_cidr_blocks"></a> [top\_level\_vpc\_cidr\_blocks](#output\_top\_level\_vpc\_cidr\_blocks) | Top-Level IPv4 CIDR blocks in the VPC |
 | <a name="output_vpc_cidr_block"></a> [vpc\_cidr\_block](#output\_vpc\_cidr\_block) | IPv4 CIDR block for the VPC |
+| <a name="output_vpc_id"></a> [vpc\_id](#output\_vpc\_id) | VPC ID |
+| <a name="output_vpc_name"></a> [vpc\_name](#output\_vpc\_name) | VPC Name |
 <!-- END_TF_DOCS -->

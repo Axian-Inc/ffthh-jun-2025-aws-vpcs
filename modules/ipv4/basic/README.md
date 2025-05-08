@@ -44,4 +44,6 @@ No requirements.
 |------|-------------|
 | <a name="output_subnet_cidr_blocks"></a> [subnet\_cidr\_blocks](#output\_subnet\_cidr\_blocks) | Subnet IPv4 CIDR Blocks |
 | <a name="output_vpc_cidr_block"></a> [vpc\_cidr\_block](#output\_vpc\_cidr\_block) | IPv4 CIDR block for the VPC |
+| <a name="output_vpc_id"></a> [vpc\_id](#output\_vpc\_id) | VPC ID |
+| <a name="output_vpc_name"></a> [vpc\_name](#output\_vpc\_name) | VPC Name |
 <!-- END_TF_DOCS -->

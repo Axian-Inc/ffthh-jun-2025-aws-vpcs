@@ -47,5 +47,7 @@ No requirements.
 | Name | Description |
 |------|-------------|
 | <a name="output_subnet_ipv6_cidr_blocks"></a> [subnet\_ipv6\_cidr\_blocks](#output\_subnet\_ipv6\_cidr\_blocks) | Subnet IPv6 CIDR Blocks |
+| <a name="output_vpc_id"></a> [vpc\_id](#output\_vpc\_id) | VPC ID |
 | <a name="output_vpc_ipv6_cidr_block"></a> [vpc\_ipv6\_cidr\_block](#output\_vpc\_ipv6\_cidr\_block) | IPv6 CIDR block for the VPC |
+| <a name="output_vpc_name"></a> [vpc\_name](#output\_vpc\_name) | VPC Name |
 <!-- END_TF_DOCS -->
