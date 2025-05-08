@@ -62,5 +62,7 @@ No requirements.
 | <a name="output_private_subnet_ipv6_cidr_blocks"></a> [private\_subnet\_ipv6\_cidr\_blocks](#output\_private\_subnet\_ipv6\_cidr\_blocks) | Private Subnet IPv6 CIDR Blocks |
 | <a name="output_public_subnet_ipv6_cidr_blocks"></a> [public\_subnet\_ipv6\_cidr\_blocks](#output\_public\_subnet\_ipv6\_cidr\_blocks) | Public Subnet IPv6 CIDR Blocks |
 | <a name="output_top_level_vpc_ipv6_cidr_blocks"></a> [top\_level\_vpc\_ipv6\_cidr\_blocks](#output\_top\_level\_vpc\_ipv6\_cidr\_blocks) | Top-Level IPv6 CIDR blocks in the VPC |
+| <a name="output_vpc_id"></a> [vpc\_id](#output\_vpc\_id) | VPC ID |
 | <a name="output_vpc_ipv6_cidr_block"></a> [vpc\_ipv6\_cidr\_block](#output\_vpc\_ipv6\_cidr\_block) | IPv6 CIDR block for the VPC |
+| <a name="output_vpc_name"></a> [vpc\_name](#output\_vpc\_name) | VPC Name |
 <!-- END_TF_DOCS -->
