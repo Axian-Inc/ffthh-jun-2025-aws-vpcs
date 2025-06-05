@@ -7,7 +7,7 @@ resource "aws_vpc" "this" {
   }
 }
 
-# Divvy up the VPC CDR Block
+# Divvy up the VPC CIDR Block
 module "top_level_vpc_cidr_blocks" {
   source  = "hashicorp/subnets/cidr"
   version = "~> 1.0"

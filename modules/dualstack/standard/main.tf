@@ -44,7 +44,7 @@ module "private_subnet_ipv4_addrs" {
   networks        = local.private_subnet_ipv4_divisions
 }
 
-# Divvy up the VPC IPv6 CDR Block
+# Divvy up the VPC IPv6 CIDR Block
 module "top_level_vpc_ipv6_cidr_blocks" {
   source  = "hashicorp/subnets/cidr"
   version = "~> 1.0"
